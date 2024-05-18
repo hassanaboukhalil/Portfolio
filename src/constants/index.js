@@ -19,6 +19,10 @@ import {
   expressjs,
   sass,
   java,
+  bootstrap,
+  android,
+  mysql,
+  python,
   apple_calculator,
   hotel,
   jewelry_store,
@@ -59,14 +63,14 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -79,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -122,6 +126,22 @@ const technologies = [
   {
     name: "Express JS",
     icon: expressjs,
+  },
+  {
+    name: "Android Studio",
+    icon: android,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Python",
+    icon: python,
   }
 ];
 
