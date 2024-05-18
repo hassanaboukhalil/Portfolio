@@ -23,6 +23,10 @@ import sass from './tech/sass.png'
 import expressjs from './tech/expressjs.png'
 import java from './tech/java.png'
 import php from './tech/php.png'
+import android from './tech/android.png'
+import bootstrap from './tech/bootstrap.png'
+import mysql from './tech/mysql.png'
+import python from './tech/python.png'
 
 
 import apple_calculator from "./apple-calculator.png"
@@ -60,6 +64,10 @@ export {
   expressjs,
   java,
   sass,
+  bootstrap,
+  android,
+  mysql,
+  python,
   apple_calculator,
   weather_app,
   tic_tac_toe,
