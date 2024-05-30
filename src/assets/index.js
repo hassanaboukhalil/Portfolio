@@ -36,6 +36,7 @@ import little_lemon_restaurant from "./little-lemon-restaurant.png"
 import scientific_calculator from "./scientific-calculator.png"
 import tic_tac_toe from "./tic-tac-toe.png"
 import weather_app from "./weather-app.png"
+import jobify from "./jobify.png"
 
 
 
@@ -74,5 +75,6 @@ export {
   scientific_calculator,
   little_lemon_restaurant,
   jewelry_store,
-  hotel
+  hotel,
+  jobify
 };

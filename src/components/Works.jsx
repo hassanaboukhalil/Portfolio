@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo,
 }) => {
   return (
     <Tilt
@@ -27,7 +28,7 @@ const ProjectCard = ({
         <img
           src={image}
           alt="project_image"
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-cover"
         />
 
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -56,6 +57,22 @@ const ProjectCard = ({
           </p>
         ))}
       </div>
+
+      {demo ? (
+        <div className="mt-5">
+          <p className={`text-[14px]`}>
+            Demo :
+            <a
+              style={{ color: "deepskyblue", textDecoration: "underline" }}
+              href={demo}
+            >
+              Jobify
+            </a>
+          </p>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </Tilt>
   );
 };

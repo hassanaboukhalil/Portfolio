@@ -29,7 +29,8 @@ import {
   little_lemon_restaurant,
   scientific_calculator,
   tic_tac_toe,
-  weather_app
+  weather_app,
+  jobify
 } from "../assets";
 
 export const navLinks = [
@@ -147,6 +148,20 @@ const technologies = [
 
 
 const projects = [
+  {
+    name: "Jobify",
+    description:
+      "Jobify Web Application is a user-friendly platform designed to track your job search. This cutting-edge web-based solution, built with the MERN stack, provides a seamless interface for users to effortlessly add, update, and delete jobs. ",
+    tags: [
+      {
+        name: "MERN stack",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: jobify,
+    source_code_link: "https://github.com/hassanaboukhalil/Jobify",
+    demo: "https://jobify-7v53.onrender.com/"
+  },
   {
     name: "Little Lemon Restaurant",
     description:
